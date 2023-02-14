@@ -1,10 +1,15 @@
 package strategy;
 
+import proxy.Cat;
+import proxy.DoorMan;
+import proxy.DoorManProxy;
+import proxy.Mouse;
+
 public class App {
     public static void main(String[] args) {
-        Mouse m = new Mouse();
-        Cat c = new Cat();
-        DoorMan dm = new DoorMan();
+        proxy.Mouse m = new Mouse();
+        proxy.Cat c = new Cat();
+        proxy.DoorMan dm = new DoorMan();
         dm.kick(m);
         dm.kick(c);
     }
