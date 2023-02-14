@@ -1,7 +1,7 @@
 package proxy;
 
-import strategy.Animal;
-import strategy.DoorMan;
+import proxy.Animal;
+import proxy.DoorMan;
 
 //public class DoorManProxy extends DoorMan {
 //    public void kick(Animal a) {
